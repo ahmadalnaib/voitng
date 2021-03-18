@@ -18,7 +18,9 @@
     </head>
     <body class="font-sans bg-gray-background text-gray-900 text-sm">
         <header class="flex items-center justify-between px-8 py-4">
-            <a href="{{route('home')}}"><img class="w-9/12" src="{{asset('img/default.svg')}}" alt="logo"></a>
+            <a href="{{route('home')}}">
+                <h1 class="font-bold uppercase ">DunDung</h1>
+            </a>
             <div class="flex items-center">
                 @if (Route::has('login'))
                     <div class="px-6 py-4 ">
